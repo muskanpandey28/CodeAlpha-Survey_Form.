@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 id="title" class="text-center">COURSES SURVEY FORM</h1>
+    <p class="description-text-center"id="description">Thank you for taking your time to help us know your favourite course</p>
+  </header>
+  <div class="container">
+    <form action="" class="" id="survey-form">
+      <div>
+        <p class="name">Name</p>
+        <input type="name" class="" id="name" placeholder="Enter your name">
+      </div>
+    <div>
+    <p class="name">Email</p>
+    <input type="email" class="" id="email-label" placeholder="abc@gamil.com" pattern="+@gmail.com">
+  </div>
+  <div>
+    <p class="name">Age</p>
+    <input type="number" class="" id="number-label" placeholder="Enter your age">
+  </div>
+  <div>
+    <p class="name">Mobile No</p>
+    <input type="number" class="" id="number-label" placeholder=" Enter your mobile No">
+  </div><br />
+  <div>
+    <label for="year">Choose your current year of study</label><br />
+    <select id="dropdown">
+      <option value="1">1
+     </option>
+     <option value="2">2
+    </option>
+    <option value="3">3
+    </option>
+    <option value="4">4
+    </option>
+    <option value="5">5
+    </option>
+     </select>
+  </div>
+  <div>
+    <p class="name">What topic are you interested in:</p>
+    <p><input type="radio" name="user-recomended"value="WEB TECHNOLOGY" id="radios"class="input-radio" checked>WEB TECHNOLOGY</p>
+    <p><input type="radio" name="user-recomended"value="WEB TECHNOLOGY" id="radios"class="input-radio">DBMS</p>
+    <p><input type="radio" name="user-recomended"value="WEB TECHNOLOGY" id="radios"class="input-radio">DSA </p>
+    <p><input type="radio" name="user-recomended"value="WEB TECHNOLOGY" id="radios"class="input-radio">CORE JAVA</p>
+  </div>
+  <div class="labels" style="list-style:none">
+    <label for="preferences">What would you like to include in your present syllabus <br>(select multiple if you want)</br></label>
+  <li class="checkbox"><label><input name="prefer"value="1" type="checkbox"class="userratings">Algorithms 1</label></li>
+  <li class="checkbox"><label><input name="prefer"value="2" type="checkbox"class="userratings">Algorithms 2</label></li>
+  <li class="checkbox"><label><input name="prefer"value="3" type="checkbox"class="userratings">Data Structures</label></li>
+  <li class="checkbox"><label><input name="prefer"value="4" type="checkbox"class="userratings">Website Development</label></li>
+</div>
+<div class="form-group">
+  <p>Any comments or suggestions?</p>
+  <textarea id="comments"class="input-textarea" name="comment" placeholder="comment.."></textarea>
+</div>
+</div><br />
+<button id="btn" type="submit">SUBMIT</button>
+</div>
+</body>
+</html>
